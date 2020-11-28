@@ -1,0 +1,11 @@
+.navbar {
+    height: auto;
+}
+.user-dropdown{
+     border-radius:50%;
+    background:red;
+}
+.user-dropdown .user-image{
+    border-radius:50%;
+    background:red;
+}
