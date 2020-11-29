@@ -3,9 +3,19 @@
 }
 .user-dropdown{
      border-radius:50%;
-    background:red;
+    background:green;
 }
 .user-dropdown .user-image{
     border-radius:50%;
-    background:red;
+    background:green;
+}
+
+.banner-container {
+    text-align: center;
+}
+
+.message-head {
+    text-align: center;
+    color: aqua;
+    visibility: hidden;
 }

@@ -4,5 +4,6 @@ from django.shortcuts import render
 
 
 def index(request):
-    # return render(request, 'shared/base.html')
-    return render(request, 'main_page.html')
+    return render(request, 'shared/base.html')
+
+    # return render(request, '.html')
