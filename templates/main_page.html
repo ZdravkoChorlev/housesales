@@ -1,5 +1,19 @@
 {% extends 'shared/base.html' %}
 
-{% block content %}
-    <p class="pe">Extended</p>
+{% block site_content %}
+    <div class="banner-container">
+        <h1 class="message-head" style="font-size: 80px">We provide the best broker services</h1>
+    </div>
+
+    <div class="upload-image-container">
+        <span>
+        <img class="upload-img" src="static/upload.png" alt="" width="70" height="70">
+    </span>
+    </div>
+
+    <div class="upload-container">
+        <a href="{% url 'post house' %}">
+            <button type="button">Publish your property</button>
+        </a>
+    </div>
 {% endblock %}

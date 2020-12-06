@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'houses',
-    'houses_main'
+    'common',
 ]
 
 MIDDLEWARE = [
@@ -129,7 +129,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = ''
 
 STATICFILES_DIRS = (
-    join(BASE_DIR, 'static'),
+    join(BASE_DIR, 'static/'),
 )
 
 MEDIA_URL = '/media/'
